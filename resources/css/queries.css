@@ -1,0 +1,696 @@
+
+    /* over 1023, smaller then row (1140) */
+
+    @media only screen and (max-width: 1200px){
+        .main-head {
+        width: 100%;
+        padding: 0 2%;
+        }
+
+        .row { padding: 0 2%; }
+
+
+    }
+
+    /* 768 - 1023 */
+    @media only screen and (max-width: 1023px){
+
+        .test {
+
+       margin-left: 110px;
+    }
+        body {font-size: 18px; }
+        section { padding: 50px 0; }
+        h2  {  margin-bottom: 60px;}
+    }
+
+
+    .tech-i {
+        font-size: 250%;
+        color: #e67e22;
+        margin-left: 42%;
+    }
+
+    .customer-img {
+        border-radius: 50%;
+        width: 35px;
+        height: auto;
+        margin-right: 5px;
+    }
+
+    blockquote {
+        padding: 1%;
+        font-style: italic;
+        line-height: 130%;
+
+    }
+
+
+    cite {
+        font-size: 80%;
+        margin-top: 20px;
+    }
+
+    .h2-user {
+        margin-bottom: 40px;
+    }
+
+
+    /* ---------------- SECTION PLAN ---------------- */
+
+    .plan-head {
+        border-radius: 3%;
+          margin-right: 8px;
+    }
+
+    .plan-title {
+        padding-bottom: 15px;
+                        padding-top: 15px;
+                        border-top-left-radius: 50%;
+
+        font-size: 120%;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
+
+
+    .plan-list li {
+        text-decoration: none;
+
+        margin: 8px 0;
+        padding-bottom: 15px;
+        padding-top: 0;
+        font-size: 70%;
+        text-align: left;
+        padding-left: 10px;
+
+
+    }
+
+
+    .plan-head a {
+
+        margin-bottom: 20px;
+
+
+    }
+
+    .plan-icons i {
+        font-size: 120%;
+        margin-right: 8px;
+
+
+    }
+    h2 {
+
+        margin-bottom: 40px;
+
+    }
+
+
+    /* ---------------- SECTION CONTACT ---------------- */
+
+
+
+    .contact-form {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    label {
+        letter-spacing: 2px;
+        font-size: 16px;
+    }
+
+    /* 481 - 767 */
+    @media only screen and (max-width: 767px){
+
+        body { font-size: 16px;}
+        section { padding: 30px 0; }
+        h1 {
+        word-spacing: 3px;
+        letter-spacing: 6px;
+        margin-bottom: 20px;
+        font-size: 220%;
+    }
+
+        .mobile-navigation-icon {
+            display: inline-block;
+            margin-right: 25px;
+            margin-bottom: 15px;
+            margin-top: 25px;
+            }
+
+        .main-nav { display: none; }
+        .main-nav {
+
+            float: left;
+            margin-top: 25px;
+            margin-left: 25px;
+
+        }
+
+        .main-nav li { display: block; }
+
+        .main-nav li a:link,
+        .main-nav li a:visited {
+            display: block;
+            border: 0;
+            font-size: 100%;
+        }
+
+
+        /* Scroll navigation */
+        .sticky .mobile-navigation-icon i {
+            color: #555;
+
+        }
+       .sticky .mobile-navigation-icon {
+
+            margin-bottom: 10px;
+            margin-top: 10px;
+            }
+
+        .sticky .main-nav li a:link,
+        .stickt .main-nav li a:visited {
+            font-size: 90%;
+        }
+
+
+    .sticky .main-nav {
+        margin-top: 10px;
+        margin-left: 15px;
+
+
+    }
+
+
+        h2 { margin-bottom: 30px; }
+
+    h2:after {
+        display: block;
+        content: " ";
+        width: 80px;
+        height: 3px;
+
+        margin-top: 10px;
+
+    }
+
+        #wall {
+      margin: 0;
+      padding: 0;
+      height: 200px;
+      width: 5000px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #slider {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+    }
+
+    #slider li {
+      display: inline-block;
+      margin-right: -4px;
+    }
+
+    .slide {
+        padding-right: 60;
+
+    }
+
+        #slider li img {
+             width: 100px;
+        height: auto;
+        }
+
+        /* ---------------- SECTION USERS ---------------- */
+
+
+
+    .customer-img {
+        border-radius: 50%;
+        width: 40px;
+        height: auto;
+        margin-right: 8px;
+    }
+
+    blockquote {
+        padding: 1%;
+
+        line-height: 105%;
+
+    }
+
+    blockquote:before {
+        content: "\201C";
+        font-size: 300%;
+        vertical-align: bottom;
+
+
+    }
+
+    cite {
+        font-size: 80%;
+        margin-top: 15px;
+        display: block;
+    }
+
+    cite img {
+        vertical-align: middle;
+    }
+
+    .h2-user {
+        margin-bottom: 15px;
+    }
+
+        .plan-section{
+
+        background-color:  #dedede;
+    }
+
+
+    .plan-head {
+
+          margin-right: 8px;
+
+    }
+
+    .plan-title {
+        padding-bottom: 15px;
+                        background-color: #efefef;
+                        padding-top: 20px;
+                        border-top-left-radius: 50%;
+
+        font-size: 100%;
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+
+
+
+    .plan-list li {
+        text-decoration: none;
+
+        margin: 5px 0;
+        padding-bottom: 5px;
+        padding-top: 0;
+        font-size: 70%;
+        text-align: left;
+        padding-left: 10px;
+
+
+    }
+
+    .plan-list li:last-child {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        margin: 5px 0;
+        letter-spacing: 2px;
+
+    }
+
+    .plan-head a {
+     text-decoration: none;
+        margin-bottom: 15px;
+
+
+    }
+
+    .plan-icons i {
+        font-size: 100%;
+        margin-right: 5px;
+
+
+    }
+
+    .price {
+        text-align: center;
+    }
+
+    /* CORECT BUTTONS IN PLAN */
+    .btn1:link,
+    .btn1:visited {
+        display: inline-block;
+        margin-top: 10px;
+
+        padding: 5px 30px;
+
+        border-radius: 70px;
+        transition: background-color 0.2s, color 0.2s, border 0.2s;
+    }
+
+
+    .contact-form {
+        width: 80%;
+        }
+
+        /* ---------------- FOOTER ---------------- */
+
+    footer {
+
+        padding: 15px 0;
+
+    }
+
+
+    .footer-nav li a:visited,
+    .footer-nav li a:link
+    {
+
+        margin-right: 15px;
+        font-size: 80%;
+        transition: color 0.2s;
+    }
+
+
+    .footer-social li i {
+        font-size: 110%;
+        margin-right: 15px;
+        color: #9d9d9d;
+    }
+
+
+
+    .footer-p {
+        text-align: center;
+        font-size: 70%;
+        margin-top: 15px;
+        color: #9d9d9d;
+    }
+
+    .footer-social li:last-child {
+        margin-right: 10px;
+    }
+
+    .footer-nav:first-child {
+        margin-left: 10px;
+    }
+        /* ---------------- BUTTONS ---------------- */
+
+
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+        display: inline-block;
+        margin-top: 6px;
+        margin-right: 12px;
+        padding: 5px 30px;
+
+        border-radius: 60px;
+        transition: background-color 0.2s, color 0.2s, border 0.2s;
+    }
+    .btn1:link,
+    .btn1:visited {
+        display: inline-block;
+        margin-top: 10px;
+
+        padding: 5px 30px;
+
+        border-radius: 60px;
+        transition: background-color 0.2s, color 0.2s, border 0.2s;
+    }
+
+     .view-third img {
+
+        height: auto;
+         width: 200px;
+        }
+
+
+        .view {
+
+        width: 150px;
+        height: auto;
+
+        }
+
+        .test {
+
+       margin-left: 75px;
+    }
+
+        .view .mask, .view .content {
+        width: 200px;
+        height: 150px;
+        }
+
+        .view h2 {
+
+        font-size: 16px;
+        padding: 5px;
+
+        margin: 10px 58px 0 0
+    }
+    .view p {
+
+        font-size: 10px;
+
+        padding: 10px 55px 20px 0;
+
+    }
+    .view a.info {
+
+        padding: 6px 6px;
+        }
+        h2:after {
+        display: block;
+        content: " ";
+        width: 80px;
+        height: 3px;
+
+        margin-top: 10px;
+
+    }
+
+
+
+    h3 {
+        font-size: 90%;
+
+    }
+
+    h3:after {
+        display: block;
+        content: " ";
+        width: 30px;
+        height: 1px;
+        background-color: #e67e22;
+        margin: 0 auto;
+        margin-top: 7px;
+    }
+
+        .tech-i {
+        font-size: 240%;
+
+        margin-left: 37%;
+    }
+
+
+    .tech-h3 {
+        margin-top: 2px;;
+    }
+
+
+    .tech-h2 {
+        margin-bottom: 5px;
+    }
+
+    .tech-p {
+        margin: 15px 0;
+        font-size: 15px;
+        word-spacing: 2px;
+
+    }
+
+        .team-head {
+        text-align: center;
+        margin-bottom: 40px;
+
+    }
+
+
+    .team-photo {
+        margin-top: 10px;
+        border-radius: 50%;
+        width: 90px;
+        height: auto;
+    }
+
+
+    figcaption {
+        font-size: 80%;
+        margin-top: 6px;
+    }
+
+
+
+    /* Small screen: 0-480px */
+    @media only screen and (max-width: 480px) {
+
+        .row {
+            padding: 0 1%;
+        }
+
+        .col {width: 100%; }
+
+        html, body {
+
+        font-size: 15px;
+
+        }
+
+        section {padding: 40px 0;}
+
+
+        /* ---------------- NAVIGATION ---------------- */
+
+        .main-nav { margin-top: 30px; }
+
+    .main-nav li { margin-right: 10px;}
+
+
+
+    h1 {
+
+        word-spacing: 4px;
+        letter-spacing: 8px;
+        margin-bottom: 30px;
+
+        font-size: 200%;
+    }
+
+    h2 {
+
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    h2:after {
+        display: block;
+        content: " ";
+        width: 70px;
+        height: 3px;
+        background-color: #e67e22;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+
+
+    h3:after {
+
+        width: 20px;
+        height: 2px;
+        margin-top: 4px;
+    }
+
+
+        .work-section {
+       padding: 1%;
+
+    }
+
+        .mobile-h2 {
+            padding-top: 20px;
+
+        }
+
+
+
+
+
+
+
+        .test { margin-left: 100px; }
+
+    .view {
+
+        width: 150px;
+        height: auto;
+
+        }
+
+
+    .view .mask, .view .content {
+        width: 150px;
+        height: 120px;
+        }
+
+    .view h2 {
+
+        font-size: 13px;
+        padding: 2px;
+        margin: 10px 17px 0 0
+    }
+    .view p {
+
+        font-size: 12px;
+        padding: 10px 17px 5px 0;
+
+    }
+    .view a.info {
+
+        padding: 7px 7px;
+        box-shadow: 0 0 1px #000;
+        margin-right: 17px;
+
+    }
+        .view a.info:hover { box-shadow: 0 0 5px #000; }
+
+
+
+
+    /* */
+
+
+    .view-third img {
+        transition: all 0.2s ease-in;
+        padding: 0;
+        height: auto;
+        width: 150px;
+
+    }
+
+
+        .tech-p { margin: 20px 3px; }
+
+        .tech-i {
+        font-size: 250%;
+        margin-left: 45%;
+        }
+
+        cite { margin-bottom:  45px; }
+        cite:last-child { margin-bottom: 20px;}
+        .h2-user {margin-bottom: 30px;}
+
+
+    .plan-head {
+
+        box-shadow: 3px 5px px #888888;
+
+        border-radius: 4%;
+
+          margin: 3% 10%;
+
+            }
+
+
+    .footer-social {
+        margin-left: 40%;
+        padding-top: 4%;
+        float: left;
+
+        }
+
+
+
+
+    /* ***************************************OUR WORK 2*****************************************************************  */
