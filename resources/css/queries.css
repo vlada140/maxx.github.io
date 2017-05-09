@@ -609,38 +609,40 @@
 
 
 
-        .test { margin-left: 100px; }
+        .test { 
+            width: 80%;
+            margin-left: 15%; }
 
     .view {
 
-        width: 150px;
+        width: 100px;
         height: auto;
 
         }
 
 
     .view .mask, .view .content {
-        width: 150px;
+        width: 90px;
         height: 120px;
         }
 
     .view h2 {
 
-        font-size: 13px;
+        font-size: 12px;
         padding: 2px;
-        margin: 10px 17px 0 0
+        margin: 2px 5px 0 0
     }
     .view p {
 
         font-size: 12px;
-        padding: 10px 17px 5px 0;
+        padding: 12px 10px 12px 0;
 
     }
     .view a.info {
 
-        padding: 7px 7px;
+        padding: 5px 5px;
         box-shadow: 0 0 1px #000;
-        margin-right: 17px;
+        margin-right: 10px;
 
     }
         .view a.info:hover { box-shadow: 0 0 5px #000; }
@@ -689,8 +691,11 @@
         float: left;
 
         }
-
-  
         
-    
-    /* *********************************************************************************************************  */
+        .user-section {  padding-bottom: 600px;}
+        
+        .section-contact { padding-bottom: 500px;   }
+
+
+
+    /* ***************************************OUR WORK 2*****************************************************************  */
