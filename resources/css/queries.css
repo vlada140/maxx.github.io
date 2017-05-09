@@ -690,15 +690,16 @@
 
         }
 
+        header {   background-attachment: inherit; }
 
         .user-section { 
-            background-attachment: none; 
-            padding-bottom: 20px;
+            background-attachment: scroll; 
+            padding-bottom: 400px;
         }
-        header {   background-attachment: none; }
+       
 
         .section-contact { 
-            background-attachment: none;
-             padding-bottom: 20px;
+            background-attachment: scroll;
+             padding-bottom: 200px;
         }
     /* *********************************************************************************************************  */
