@@ -690,20 +690,30 @@
 
         }
 
-        header {   background-attachment: inherit; }
+        header { 
+               
+                background-size:auto
+           
+                background-attachment: fixed;
+        
+        }
 
         .user-section { 
-            background-attachment: scroll; 
+             
+                background-size: contain;
+              
+                background-attachment: fixed; 
          
         }
        
 
         .section-contact { 
-            background-attachment: scroll;
+         
+                background-size: auto;
+         
+                background-attachment: fixed;
      
         }
         
-        .btn-send {
-            padding-bottom: 200px;
-        }
+    
     /* *********************************************************************************************************  */
