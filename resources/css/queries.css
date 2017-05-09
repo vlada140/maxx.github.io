@@ -690,32 +690,7 @@
 
         }
 
-        header { 
-               
-                background-size: contain;
-           
-                background-attachment: fixed;
-        
-        }
-
-        .user-section { 
-             
-                background-size: contain;
-              
-                background-attachment: fixed; 
-                padding-bottom: 200px;
-            margin-bottom: 200px;
-         
-        }
-       
-
-        .section-contact { 
-         
-                background-size: auto;
-                padding-bottom: 200px;
-            margin-bottom: 200px;
-        
-        }
+  
         
     
     /* *********************************************************************************************************  */
