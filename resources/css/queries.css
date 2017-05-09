@@ -694,12 +694,16 @@
 
         .user-section { 
             background-attachment: scroll; 
-            padding-bottom: 400px;
+         
         }
        
 
         .section-contact { 
             background-attachment: scroll;
-             padding-bottom: 200px;
+     
+        }
+        
+        .btn-send {
+            padding-bottom: 200px;
         }
     /* *********************************************************************************************************  */
