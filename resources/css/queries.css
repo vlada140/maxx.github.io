@@ -691,7 +691,8 @@
         }
 
 
-        .user-section { background-attachment: scroll; }
-        header {   background-attachment: scroll; }
+        .user-section { background-attachment: none; }
+        header {   background-attachment: local; }
 
+        .section-contact { background-attachment: inherit; }
     /* ***************************************OUR WORK 2*****************************************************************  */
