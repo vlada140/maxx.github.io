@@ -692,7 +692,7 @@
 
 
         .user-section { background-attachment: none; }
-        header {   background-attachment: local; }
+        header {   background-attachment: none; }
 
-        .section-contact { background-attachment: inherit; }
+        .section-contact { background-attachment: none; }
     /* ***************************************OUR WORK 2*****************************************************************  */
