@@ -691,8 +691,14 @@
         }
 
 
-        .user-section { background-attachment: none; }
+        .user-section { 
+            background-attachment: none; 
+            padding-bottom: 20px;
+        }
         header {   background-attachment: none; }
 
-        .section-contact { background-attachment: none; }
-    /* ***************************************OUR WORK 2*****************************************************************  */
+        .section-contact { 
+            background-attachment: none;
+             padding-bottom: 20px;
+        }
+    /* *********************************************************************************************************  */
